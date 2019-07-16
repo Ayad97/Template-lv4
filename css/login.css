@@ -1,0 +1,93 @@
+.login{
+    background: url("../img/bg-img2.png");
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.login .ph img{
+margin-top: 35%;
+}
+.login h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.login .row .log img{
+    /* margin: 20px; */
+    padding: 20px 0;
+}
+.login input{
+    border: none;
+    outline: none;
+    width: 93%;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2fa943;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.login .submit{
+    padding: 10px 30px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.login span a{
+  
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+}
+/*Extra small devices (portrait phones, less than 576px)
+ mobile & tablet */
+ @media (max-width: 575px) {
+    .login .ph img{
+        margin-top: 15%;
+        height: 150px;
+        width: 80%;;;
+    }
+    .login h4{
+        font-size: 16px;
+        margin-bottom: -10px;
+    } 
+    .login input::placeholder{
+        font-size: 15px;
+    }
+    .login span a{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+ }
+ /* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .login .ph img{
+        margin-top: 70%;
+    } 
+    .login input::placeholder{
+        font-size: 15px;
+    }
+    .login span a{
+        margin-left: 10px;
+        font-size: 17px;
+    }
+    .login input{
+        width: 90%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .login .ph img{
+        margin-top: 90%;
+    }
+    .login span a{
+        margin-left: 25px;
+        font-size: 17px;
+    } 
+}
