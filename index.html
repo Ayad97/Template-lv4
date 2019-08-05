@@ -19,17 +19,35 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
 
       <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/hover.css">
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+        <!-- <div class="load-overlay">
+                <div class="loading">
+                    <span>Loading...</span>
+                </div>
+        </div> -->
 <div id="wrapper">
+    
 <!-- ------------------------------start home & navbar------------------------------------------------------ -->
 <section class="home">
-    
+        <div class="bubbels">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
     <header>
-            <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"                     aria-label="Toggle navigation">
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"                     aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
@@ -40,8 +58,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav pos_nav">
                         <a class="nav-item nav-link active" href="#">Blog <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Try It </a>
-                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link" href="try.html">Try It </a>
+                        <a class="nav-item nav-link" href="price.html">Pricing</a>
                         <a class="nav-item nav-link" href="#">Documentation</a>
                         <a class="nav-item nav-link" href="contact.html">Contact US</a>
                         <a class="nav-item nav-link log_nav" href="login.html" >Login</a>
@@ -54,10 +72,10 @@
         <div class="container">
             <div class="head_title">
                 <h4 class="text-center">Hosted ELK as a Service</h4>
-                <span class="sub-title">Index, Search, Analyse and Visualise your Data</span>
+                <span class="sub-title wow slideInRight" data-wow-duration="2s">Index, Search, Analyse and Visualise your Data</span>
             </div>
-            <img src="img/img1.png" class="img-fluid img-responsive" alt="error">
-            <a href="#" class="btn btn-success ">Start your free trial now  <i class="fa fa-chevron-right"></i></a>
+            <img src="img/img1.png" class="img-fluid img-responsive wow rollIn" data-wow-duration="2s" alt="error">
+            <a href="#" class="btn btn-success  wow fadeInLeft" data-wow-duration="2s">Start your free trial now  <i class="fa fa-chevron-right"></i></a>
         </div>
     </div>
 </section>
@@ -67,30 +85,30 @@
 <section class="use_for">
     <div class="container">
         <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-        <h4 class="text-center">USE LOGIT FOR</h4> <hr class="ln">
+        <h4 class="text-center wow fadeInDown"  data-wow-duration="2s">USE LOGIT FOR</h4> <hr class="ln ">
         <div class="use_item">
             <div class="row use-box">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 cl wow fadeInLeft"  data-wow-duration="2s">
                     <div class="img-holder">
-                        <img src="img/img2.png" class="img-fluid d-block mx-auto img-responsive" alt="">
-                        <h5>INFRASTRUCTURE LOGS / METRICS</h5><hr class="ln"> 
+                        <img src="img/img2.png" class="img-fluid d-block mx-auto img-responsive wow fadeInDown"  data-wow-duration="3s" alt="">
+                        <h5 class="wow jello"  data-wow-duration="2s">INFRASTRUCTURE LOGS / METRICS</h5><hr class="ln"> 
                         <p>Record past performance and ensure your servers are operating correctly in real time. Give your operations team the tools to firefight and plan ahead.</p><br>
                     </div>
                     <a href="#" class="btn btn-danger bord_btn"> USE IT </a>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 cl wow fadeInDown"  data-wow-duration="2s">
                     <div class="img-holder">
-                        <img src="img/img3.png" class="img-fluid d-block mx-auto img-responsive" alt="">
-                        <h5>APPLICATIONS LOGS / METRICS</h5> <hr class="ln"> 
+                        <img src="img/img3.png" class="img-fluid d-block mx-auto img-responsive wow fadeInUp"  data-wow-duration="3s" alt="">
+                        <h5 class="wow jello"  data-wow-duration="2s">APPLICATIONS LOGS / METRICS</h5> <hr class="ln"> 
                         <p>Allow developers to log arbitrary structured data. By logging all exceptions, logs and performance data your development team can diagnose errors, improve application performance and track user engagement.</p>
                     </div>
                     <a href="#" class="btn btn-primary bord_btn"> USE IT </a>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 cl wow fadeInRight"  data-wow-duration="2s">
                     <div class="img-holder">
-                        <img src="img/img4.png" class="img-fluid d-block mx-auto img-responsive" alt="">
-                        <h5>BUSINESS ANALYTICS IN REAL TIME</h5><hr class="ln"> 
-                        <p>Record your business data and build comprehensive visualisations and dashboards. Gain valuable fresh insights and start making informed business planning decisions.</p><br>
+                        <img src="img/img4.png" class="img-fluid d-block mx-auto img-responsive wow fadeInDown"  data-wow-duration="3s" alt="">
+                        <h5 class="wow jello"  data-wow-duration="2s">BUSINESS ANALYTICS IN REAL TIME</h5><hr class="ln"> 
+                        <p>Record your business data and build comprehensive visualisations and dashboards. Gain valuable fresh insights and start making informed business planning decisions.</p>
                     </div>
                     <a href="#" class="btn btn-warning bord_btn"> USE IT </a>
                 </div>
@@ -102,116 +120,128 @@
 <!-- --------------------------------------start features ------------------------------------------------------- -->
 <section class="features">
     <div class="container">
+            <div class="bubbels">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                </div>
             <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-            <h4 class="text-center"><span>O</span>UR <span>F</span>EA<span>T</span>URE<span>S</span> </h4> <hr class="ln">
+            <h4 class="text-center wow fadeInDown"  data-wow-duration="2s"><span>O</span>UR <span>F</span>EA<span>T</span>URE<span>S</span> </h4> <hr class="ln">
             <div class="features_item">
                 <div class="row use-box">
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img6.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Visualise Your Logs/Data</h5><hr class="ln">
                             <p>Area charts, Data tables, Line charts, Markdown widgets, Metrics, Pie charts, Tile maps</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInDown"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img7.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Multiple ELK Stacks</h5><hr class="ln">
                             <p>You can have just a single ELK stack where you put all your data or have as many as you need</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img8.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Fully Managed by Us</h5><hr class="ln">
                             <p>Our experts know ELK stack inside out. We do all the heavy lifting so you can jump straight into Kibana</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInRight"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img9.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Kibana 4</h5><hr class="ln">
                             <p>Powered by Kibana 4 (made by the fantastic Elasticsearch team), you have all the control at your fingertips</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img10.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Configurable Logstash</h5><hr class="ln">
                             <p>As we provide you with your own Logstash instance, we want to give you the flexibility of editing</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img11.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Direct Elasticsearch API Access</h5><hr class="ln">
                             <p>Need access to Elasticsearch HTTP API? We got that covered. Secure access to your cluster with API keys</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInRight"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img12.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">High Availability (Optional)</h5><hr class="ln">
                             <p>Optional multi-region HA for elasticsearch and data ingestion. Only if you need it, it's your choice</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInDown"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img13.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Scalable</h5><hr class="ln">
                             <p>Dont worry if you dont know your exact requirements or data needs, our team will work with you!</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img14.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Logstash Backup</h5><hr class="ln">
                             <p>We automatically backup your logstash configuration each time you (or we) make a change, just incase!</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInRight"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img15.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Custom Data HTTP API</h5><hr class="ln">
                             <p>We have written our own HTTP API for receiving your data. It's simple, easy and quick to use</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img16.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">ALL Your Logs in One Place</h5><hr class="ln">
                             <p>Whether you send log, events or something custom, sending this information to Logit gets</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInRight"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img17.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">We're Flexible</h5><hr class="ln">
                             <p>If you need something a bit different, we'll work with you and often without extra cost</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img18.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Support</h5><hr class="ln">
                             <p>We offer wordwide support and live chat functionality, you get a dedicated account manager</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInRight"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img19.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Beats Compatible</h5><hr class="ln">
                             <p>Are you cutting edge? We're ready for you. We fully support shipping Beats data</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img20.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Simple Setup</h5><hr class="ln">
                             <p>You can be up and running and sending data to our service in less than 5 minutes, with OS Agents, code libraries</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInDown"  data-wow-duration="2s">
                         <div class="items">
                             <img src="img/img21.png" class="img-fluid d-block mx-auto img-responsive" alt="">
                             <h5 class="text-center">Securely Share Your Data</h5><hr class="ln">
@@ -227,7 +257,7 @@
 <section class="work">
     <div class="container">
             <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-            <h4 class="text-center"><span>H</span>OW <span>IT</span> WOR<span>K</span> </h4> <hr class="ln">
+            <h4 class="text-center wow fadeInDown"  data-wow-duration="2s"><span>H</span>OW <span>IT</span> WOR<span>K</span> </h4> <hr class="ln">
             <iframe width="100%" height="500" src="https://www.youtube.com/embed/i8CQ8Ud0HN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
@@ -237,29 +267,29 @@
 <section class="partner">
     <div class="container">
             <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-            <h4 class="text-center"><span>O</span>UR <span>H</span>APP<span>Y</span> <span>U</span>SER </h4> <hr class="ln">
+            <h4 class="text-center wow fadeInDown"  data-wow-duration="2s"><span>O</span>UR <span>H</span>APP<span>Y</span> <span>U</span>SER </h4> <hr class="ln">
         <div class="row use-box">
             <div class="col-4 col-md-2">
-                <img src="img/img22.png" class="img-fluid d-block mx-auto img-responsive" alt="error1">
+                <img src="img/img22.png" class="img-fluid d-block mx-auto img-responsive wow rollIn"  data-wow-duration="2s" alt="error1">
 
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 wow fadeInUp"  data-wow-duration="2s">
                 <img src="img/img23.png" class="img-fluid d-block mx-auto img-responsive" alt="error2">
 
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 wow fadeInRight"  data-wow-duration="2s">
                 <img src="img/img24.png" class="img-fluid d-block mx-auto img-responsive" alt="error2">
 
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 wow fadeInDown"  data-wow-duration="2s">
                 <img src="img/img25.png" class="img-fluid d-block mx-auto img-responsive" alt="error2">
 
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 wow fadeInLeft"  data-wow-duration="2s">
                 <img src="img/img26.png" class="img-fluid d-block mx-auto img-responsive" alt="error2">
 
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 wow fadeInRight"  data-wow-duration="2s">
                 <img src="img/sp6.png" class="img-fluid d-block mx-auto img-responsive" alt="error2">
 
             </div>
@@ -272,24 +302,24 @@
     <div class="container">
         <div class="caption">
                 <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-                <h4 class="text-center"><span>O</span>UR <span>T</span>EST<span>I</span>MONIAL<span>S</span> </h4> <hr class="ln">
+                <h4 class="text-center wow fadeInDown"  data-wow-duration="2s"><span>O</span>UR <span>T</span>EST<span>I</span>MONIAL<span>S</span> </h4> <hr class="ln">
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInLeft"  data-wow-duration="2s">
                     <div class="quote-box">
-                            <img src="img/img27.jpg" alt="Tecseek" class="img-circle">
+                            <img src="img/img27.jpg" alt="Tecseek" class="img-circle wow rollIn" data-wow-delay="1s" data-wow-duration="2s">
                             <blockquote>
                                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est omnis dolor repellendus </p>
-                                <footer>Mark Lewis<cite title="Source Title">C.E.O</cite></footer>
+                                <footer class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">Mark Lewis<cite title="Source Title">C.E.O</cite></footer>
                             </blockquote>
                         </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight"  data-wow-duration="2s">
                     <div class="quote-box">
-                            <img src="img/img28.jpg" alt="Tecseek Technology" class="img-circle">
+                            <img src="img/img28.jpg" alt="Tecseek Technology" class="img-circle wow rollIn" data-wow-delay="1s" data-wow-duration="2s">
                         <blockquote>
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat</p>
-                            <footer>Allan Branch<cite title="Source Title">C.E.O</cite></footer>
+                            <footer class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">Allan Branch<cite title="Source Title">C.E.O</cite></footer>
                         </blockquote>
                     </div>
                 </div>
@@ -298,11 +328,11 @@
 </section>
 <!-- ---------------------------------------- ---end testimonials-------------------- -->
 <!-- --------------------------------------start support-------------------------------------- -->
-<section class="support">
+<section class="support wow rollIn" data-wow-duration="2s">
     <div class="container">
             <div class="caption">
                     <img src="img/logo2.png" class="img-responsive img-fluid mx-auto d-block" alt="error">
-                    <h4 class="text-center">SUPPORTED LANGUAGES</h4> <hr class="ln">
+                    <h4 class="text-center wow rollIn"  data-wow-duration="2s" data-wow-delay="1s">SUPPORTED LANGUAGES</h4> <hr class="ln">
             </div>
             <div class="row">
                 <div class="col-6 col-sm-3 col-md-1">
@@ -384,24 +414,37 @@
 </section>
 <!-- ----------------------------------------end support------------------------------------ -->
 <!-- ----------------------------------------start register---------------------------------- -->
-<section class="register">
+<section class="register wow slideInRight" data-wow-duration="2s">
     <div class="container">
-        <h3 class="text-center">Find Out More About Us Or <b> Signup</b> and <b> Get Started</b></h3>
-        <a href="register.html" class="btn btn-primary">Register Now For Free 14-Day Trial <i class="fa fa-chevron-right"></i></a>
+        <h3 class="text-center wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">Find Out More About Us Or <b> Signup</b> and <b> Get Started</b></h3>
+        <a href="register.html" class="btn btn-primary hvr-shutter-out-horizontal wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">Register Now For Free 14-Day Trial <i class="fa fa-chevron-right"></i></a>
+       
     </div>
 </section>
 <!-- ----------------------------------------end register---------------------------------- -->
 <!-- ------------------------------------------start footer----------------------------- -->
-<footer class="footer">
+<footer class="footer wow slideInLeft" data-wow-duration="2s">
     <div class="container">
-        <div class="social">
+            <div class="bubbels">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                </div>
+        <div class="social wow jackInTheBox" data-wow-duration="2s" data-wow-delay="1s">
             <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
             <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
             <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
         </div>
-        <p>Copyright © 2019. AYAD Software Ltd T/A Logit.io - Company Reg: 07EM Shebien<span class="design"> Designed by <a href="#">Mahmoud Ayad</a></span>
+        <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">Copyright © 2019. AYAD Software Ltd T/A Logit.io - Company Reg: 07EM Shebien<span class="design"> Designed by <a href="#">Mahmoud Ayad</a></span>
         </p>
-        <ul class="footer_list">
+        <ul class="footer_list wow slideInRight" data-wow-duration="2s" data-wow-delay="1s">
             <li>Contact US</li>
             <li>Privacy</li>
             <li>Security</li>
@@ -419,7 +462,7 @@
     
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/scripte.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
+    <!-- <script src="js/jquery.nicescroll.min.js"></script> -->
     <script src="js/wow.min.js"></script>
     <script>
     new WOW().init();
